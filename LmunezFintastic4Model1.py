@@ -34,7 +34,7 @@ def reward_function(params):
     elif distance_from_center <= marker_3:
         reward = 0.4
     elif distance_from_center <= marker_4:
-        reward = 0.
+        reward = 0.35
     elif distance_from_center <= marker_5:
         reward = 0.3
     else:
